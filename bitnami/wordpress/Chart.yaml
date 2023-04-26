@@ -36,3 +36,4 @@ sources:
   - https://github.com/bitnami/containers/tree/main/bitnami/wordpress
   - https://wordpress.org/
 version: 15.3.4
+
