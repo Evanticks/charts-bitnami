@@ -1105,6 +1105,7 @@ mariadb:
     database: bitnami_wordpress
     username: bn_wordpress
     password: ""
+    existingSecret: "mysecret"
   ## MariaDB Primary configuration
   ##
   primary:
