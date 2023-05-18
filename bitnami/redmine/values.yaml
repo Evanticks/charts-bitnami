@@ -533,7 +533,7 @@ ingress:
 persistence:
   ## @param persistence.enabled Enable persistence using Persistent Volume Claims
   ##
-  enabled: true
+  enabled: false
   ## @param persistence.storageClass Persistent Volume storage class
   ## If defined, storageClassName: <storageClass>
   ## If set to "-", storageClassName: "", which disables dynamic provisioning
@@ -585,7 +585,7 @@ volumePermissions:
   ## @param volumePermissions.containerSecurityContext.runAsUser Set init container's Security Context runAsUser
   ##
   containerSecurityContext:
-    enabled: true
+    enabled: false
     runAsUser: 0
 
 ## @section RBAC Parameters
@@ -804,7 +804,7 @@ mailReceiver:
   ## @param mailReceiver.podSecurityContext.fsGroup Set Redmine pod's Security Context fsGroup
   ##
   podSecurityContext:
-    enabled: true
+    enabled: false
     fsGroup: 1001
   ## @param
   ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/#set-the-security-context-for-a-container
