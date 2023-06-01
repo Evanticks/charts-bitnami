@@ -10,7 +10,7 @@ metadata:
     helm.sh/chart: wordpress-15.3.4
 spec:
   host: >-
-    wordpress-ruta-pipeline-helm.apps.cluster-dshb2.dshb2.sandbox2894.opentlc.com
+    wordpress-ruta-pipeline-helm.apps.cluster-7nz25.7nz25.sandbox1644.opentlc.com
   to:
     kind: Service
     name: helm-release-wordpress
